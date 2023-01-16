@@ -7,7 +7,7 @@ def home():
 	return render_template('homepage.html')
 
 @app.route('/test')
-def test():
+def test_Usama():
 	return render_template('test.html')
 
 if __name__ == '__main__':
